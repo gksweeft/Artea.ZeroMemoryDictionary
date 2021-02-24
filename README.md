@@ -1,3 +1,3 @@
 # Artea.ZeroMemoryDictionary
 
-Simplest implementation with JSON Serialazation and Dictionary as backing field.
+Simplest implementation with JSON Serialization and Dictionary as backing field.
