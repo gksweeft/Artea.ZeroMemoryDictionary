@@ -45,7 +45,7 @@ namespace Artea.ZeroMemoryDictionary
             Console.WriteLine("=====================================");
             Console.WriteLine();
 
-            var namedDict1 = new ZeroMemoryDictionary("namedStore");
+            var namedDict1 = new ZeroMemoryDictionary("namedStore.json");
 
             namedDict1.TryAdd("1", "some text");
             namedDict1.TryAdd("1", "some more text");
@@ -66,7 +66,7 @@ namespace Artea.ZeroMemoryDictionary
 
             namedDict1.Remove("1");
 
-            var namedDict2 = new ZeroMemoryDictionary("namedStore");
+            var namedDict2 = new ZeroMemoryDictionary("namedStore.json");
 
             namedDict2.TryAdd("3", "some text 23");
             namedDict2.TryAdd("4", "some text 34234");
